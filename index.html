@@ -1,0 +1,610 @@
+<!doctype html>
+
+<html class="dark scroll-smooth" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Taller Tonino - High-Performance Bicycle Workshop</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="css/Style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;700&amp;family=Montserrat:wght@600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/tailwind-config.js"></script>
+  </head>
+  <body
+    class="antialiased font-body-md overflow-x-hidden selection:bg-brand-orange selection:text-black"
+  >
+    <!-- TopNavBar -->
+    <nav
+      class="fixed top-0 w-full z-50 transition-all duration-300 ease-in-out"
+      id="main-nav"
+    >
+      <div
+        class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-base max-w-container-max mx-auto w-full"
+      >
+        <a
+          class="font-display-lg text-headline-md text-primary dark:text-primary-fixed tracking-tighter uppercase transition-opacity hover:opacity-80"
+          href="#"
+          >TALLER TONINO</a
+        >
+        <div class="hidden md:flex gap-gutter items-center">
+          <a
+            class="text-tertiary font-bold border-b-2 border-tertiary pb-1 font-label-caps text-label-caps"
+            href="#home"
+            >Home</a
+          >
+          <a
+            class="nav-link text-on-surface-variant font-medium hover:text-tertiary transition-colors duration-300 font-label-caps text-label-caps"
+            href="#services"
+            >Servicios</a
+          >
+          <a
+            class="nav-link text-on-surface-variant font-medium hover:text-tertiary transition-colors duration-300 font-label-caps text-label-caps"
+            href="#repuestos"
+            >Repuestos</a
+          >
+          <a
+            class="nav-link text-on-surface-variant font-medium hover:text-tertiary transition-colors duration-300 font-label-caps text-label-caps"
+            href="#contact"
+            >Contact</a
+          >
+        </div>
+        <button
+          class="md:hidden text-primary p-2 hover:bg-surface-variant rounded-full transition-colors"
+        >
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </nav>
+    <!-- Hero Carousel -->
+    <section
+      class="relative h-screen w-full overflow-hidden bg-background"
+      id="home"
+    >
+      <!-- Slide 1 -->
+      <div class="carousel-slide h-full w-full active">
+        <div class="absolute inset-0 bg-black/50 z-0"></div>
+        <img
+          alt="Mantención de Bicicletas"
+          class="absolute inset-0 w-full h-full object-cover z-[-1]"
+          src="https://lh3.googleusercontent.com/aida/AP1WRLvBnva7lWCKdp3xyxlXlOKQHnxGznozuSqEZXF3cbowdCwfS3NL26-pzNkKStaBU6jRNyQ8UKkRgj5J8vMqedAFuXrt6DSegBjo6TWndQgAo5ZOGyW6UnZw19DIUPrVQ0xdxN0EcVK5BCR9s4cCS9mKaIjziANjR7cbNB5oTJ6nMN6R304jTZLmFR9EsPzIKrnsxnDX4JcdRouDVY5a4nKTO4C8n1t-QUoaARyOyhowulmEMh6V27fZZA"
+        />
+        <div
+          class="relative z-10 h-full flex flex-col justify-center items-start max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-20 carousel-content"
+        >
+          <span
+            class="font-label-caps text-brand-orange mb-4 tracking-widest uppercase"
+            >Algunos de nuestros servicios</span
+          >
+          <h1
+            class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-white mb-6 max-w-3xl"
+          >
+            Mantención de Bicicletas
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface mb-8 max-w-xl">
+            Cuidado integral para un rendimiento óptimo.
+          </p>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-slide h-full w-full">
+        <div class="absolute inset-0 bg-black/60 z-0"></div>
+        <img
+          alt="Enrayado de Ruedas"
+          class="absolute inset-0 w-full h-full object-cover z-[-1]"
+          src="https://lh3.googleusercontent.com/aida/AP1WRLvOjseIzkTumOIluFJ0JwI5eaVeyLJpZVm5JMaO03kNTMQNXTzsDRk6eIMnRIR0Eti1RUmuPeto5Qyb6SjwRMuwD9OxeBPPUyLsQRhQTgWksJizkAuhVu8NKvMGN8R66i6mvZA6hEwt8d_lKORvvW8ku95sPKPMbDWGVwQiTaPJNjUJq9Gfsj_KFdfAzHQvsW4UZEzdhT_IjSe5lJuvXhQAxPS1sPQhU-uaTkJSs6IWpC-ovKSmSK3iRIE"
+        />
+        <div
+          class="relative z-10 h-full flex flex-col justify-center items-start max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-20 carousel-content"
+        >
+          <span
+            class="font-label-caps text-brand-orange mb-4 tracking-widest uppercase"
+            >Algunos de nuestros servicios</span
+          >
+          <h1
+            class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-white mb-6 max-w-3xl"
+          >
+            Enrayado de Ruedas
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface mb-8 max-w-xl">
+            Centrado profesional y tensión de rayos de alta precisión.
+          </p>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-slide h-full w-full">
+        <div class="absolute inset-0 bg-black/50 z-0"></div>
+        <img
+          alt="Pintado de Accesorios"
+          class="absolute inset-0 w-full h-full object-cover z-[-1]"
+          src="https://lh3.googleusercontent.com/aida/AP1WRLurgmVHSk6NP4lpSGRdWsIR8u0MZ3u4Gpq5Rp7FDhmGrIKI2dS1HAGka0D_wYjjU8GvRnuZ42hXgJ6wzUq6tX42iArwBl2lUMtRlN5ymorE8KSteFd9bFWJNqBF4wRBCL8SYbW7fgGA1_eUj8ZXiQXTytNd8Pig9aSr-kdHN4pgJNw2sL1SMlr7Lkl-bjsOMVBtQmbfmPZOgjHcTBNtYN9s4C817kbY0ATfMBsAv2F7J3vFWA6tX42XWOo"
+        />
+        <div
+          class="relative z-10 h-full flex flex-col justify-center items-start max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-20 carousel-content"
+        >
+          <span
+            class="font-label-caps text-brand-orange mb-4 tracking-widest uppercase"
+            >Algunos de nuestros servicios</span
+          >
+          <h1
+            class="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-white mb-6 max-w-3xl"
+          >
+            Pintado de Accesorios
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface mb-8 max-w-xl">
+            Personalización de piezas especiales con acabados duraderos.
+          </p>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <div
+        class="absolute bottom-10 left-0 right-0 z-20 flex justify-center gap-4"
+      >
+        <button
+          class="carousel-dot w-12 h-1 hover:bg-brand-orange transition-all duration-300 active bg-brand-orange"
+        ></button>
+        <button
+          class="carousel-dot w-12 h-1 hover:bg-brand-orange transition-all duration-300 bg-surface-variant"
+        ></button>
+        <button
+          class="carousel-dot w-12 h-1 hover:bg-brand-orange transition-all duration-300 bg-surface-variant"
+        ></button>
+      </div>
+      <button
+        class="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center text-white/50 hover:text-white hover:border-white hover:bg-black/40 transition-all duration-300 hidden md:flex"
+        id="prevSlide"
+      >
+        <span class="material-symbols-outlined">chevron_left</span>
+      </button>
+      <button
+        class="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center text-white/50 hover:text-white hover:border-white hover:bg-black/40 transition-all duration-300 hidden md:flex"
+        id="nextSlide"
+      >
+        <span class="material-symbols-outlined">chevron_right</span>
+      </button>
+    </section>
+    <!-- Services Bento Grid -->
+    <section
+      class="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto reveal"
+      id="services"
+    >
+      <div class="mb-16">
+        <h2
+          class="font-headline-lg text-headline-lg text-primary uppercase mb-4 tracking-tight"
+        >
+          Servicios Técnicos
+        </h2>
+        <div class="w-24 h-1 bg-brand-orange"></div>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-6 stagger-container"
+        id="services-grid"
+      >
+        <!-- Mantención -->
+        <div
+          class="p-8 rounded-lg flex flex-col bg-surface-container-low border border-surface-container-high hover:translate-y-[-8px] hover:shadow-[0_20px_50px_rgba(255,69,0,0.15)] hover:border-brand-orange transition-all duration-500 ease-in-out group"
+        >
+          <span
+            class="material-symbols-outlined text-4xl text-brand-orange mb-6 block transition-transform duration-500 group-hover:scale-110"
+            >settings_suggest</span
+          >
+          <h3 class="font-headline-md text-xl text-primary mb-4">Mantención</h3>
+          <p class="font-body-md text-sm text-on-surface-variant">
+            Servicio integral para mantener tu bicicleta en perfectas
+            condiciones, incluyendo ajuste de transmisión y frenos.
+          </p>
+        </div>
+        <!-- Enrayado -->
+        <div
+          class="p-8 rounded-lg flex flex-col bg-surface-container-low border border-surface-container-high hover:translate-y-[-8px] hover:shadow-[0_20px_50px_rgba(255,69,0,0.15)] hover:border-brand-orange transition-all duration-500 ease-in-out group"
+        >
+          <span
+            class="material-symbols-outlined text-4xl text-brand-orange mb-6 block transition-transform duration-500 group-hover:scale-110"
+            >blur_circular</span
+          >
+          <h3 class="font-headline-md text-xl text-primary mb-4">Enrayado</h3>
+          <p class="font-body-md text-sm text-on-surface-variant">
+            Centrado de ruedas profesional y reemplazo de rayos para garantizar
+            una rodada suave y segura.
+          </p>
+        </div>
+        <!-- Cambio de piezas -->
+        <div
+          class="p-8 rounded-lg flex flex-col bg-surface-container-low border border-surface-container-high hover:translate-y-[-8px] hover:shadow-[0_20px_50px_rgba(255,69,0,0.15)] hover:border-brand-orange transition-all duration-500 ease-in-out group"
+        >
+          <span
+            class="material-symbols-outlined text-4xl text-brand-orange mb-6 block transition-transform duration-500 group-hover:scale-110"
+            >extension</span
+          >
+          <h3 class="font-headline-md text-xl text-primary mb-4">
+            Cambio de piezas
+          </h3>
+          <p class="font-body-md text-sm text-on-surface-variant">
+            Instalación experta de componentes y actualizaciones para mejorar el
+            rendimiento de tu bicicleta.
+          </p>
+        </div>
+        <!-- Pintado de accesorios -->
+        <div
+          class="p-8 rounded-lg flex flex-col bg-surface-container-low border border-surface-container-high hover:translate-y-[-8px] hover:shadow-[0_20px_50px_rgba(255,69,0,0.15)] hover:border-brand-orange transition-all duration-500 ease-in-out group"
+        >
+          <span
+            class="material-symbols-outlined text-4xl text-brand-orange mb-6 block transition-transform duration-500 group-hover:scale-110"
+            >format_paint</span
+          >
+          <h3 class="font-headline-md text-xl text-primary mb-4">
+            Pintado de accesorios
+          </h3>
+          <p class="font-body-md text-sm text-on-surface-variant">
+            Personalización y restauración estética de cuadros y componentes con
+            acabados de alta calidad.
+          </p>
+        </div>
+        <!-- Venta de repuestos -->
+        <div
+          class="p-8 rounded-lg flex flex-col bg-surface-container-low border border-surface-container-high hover:translate-y-[-8px] hover:shadow-[0_20px_50px_rgba(255,69,0,0.15)] hover:border-brand-orange transition-all duration-500 ease-in-out group"
+        >
+          <span
+            class="material-symbols-outlined text-4xl text-brand-orange mb-6 block transition-transform duration-500 group-hover:scale-110"
+            >shopping_cart</span
+          >
+          <h3 class="font-headline-md text-xl text-primary mb-4">
+            Venta de repuestos
+          </h3>
+          <p class="font-body-md text-sm text-on-surface-variant">
+            Amplio stock de piezas originales y accesorios  para todo
+            tipo de bicicletas.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Repuestos Section -->
+    <section class="py-24 bg-surface-container-lowest reveal" id="repuestos">
+      <div
+        class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"
+      >
+        <div class="mb-16">
+          <h2
+            class="font-headline-lg text-headline-lg text-primary uppercase mb-4 tracking-tight"
+          >
+            Catálogo de Repuestos
+          </h2>
+          <div class="w-24 h-1 bg-brand-orange"></div>
+        </div>
+        <div class="relative overflow-hidden group/carousel">
+          <!-- Carousel Track -->
+          <div
+            class="flex transition-transform duration-1000 ease-in-out stagger-container"
+            id="repuestos-track"
+          >
+            <!-- Slide 1 -->
+            <div class="w-full md:w-1/3 flex-shrink-0 px-4">
+              <div
+                class="bg-surface-container-low border border-surface-container-high rounded-lg overflow-hidden group hover:border-brand-orange transition-all duration-500 flex flex-col h-full hover:shadow-[0_15px_40px_-10px_rgba(255,69,0,0.3)] hover:translate-y-[-4px]"
+              >
+                <div
+                  class="relative overflow-hidden aspect-video bg-surface-variant flex items-center justify-center"
+                >
+                  <span
+                    class="material-symbols-outlined text-6xl text-on-surface-variant group-hover:scale-110 group-hover:text-brand-orange transition-all duration-500"
+                    >stop_circle</span
+                  >
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                  <h4 class="font-headline-md text-lg text-primary mb-2">
+                    Pastillas de Freno Hidráulico
+                  </h4>
+                  <div
+                    class="text-xl font-display-lg text-brand-orange mb-6 font-bold mt-auto"
+                  >
+                    $12.900
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="w-full md:w-1/3 flex-shrink-0 px-4">
+              <div
+                class="bg-surface-container-low border border-surface-container-high rounded-lg overflow-hidden group hover:border-brand-orange transition-all duration-500 flex flex-col h-full hover:shadow-[0_15px_40px_-10px_rgba(255,69,0,0.3)] hover:translate-y-[-4px]"
+              >
+                <div
+                  class="relative overflow-hidden aspect-video bg-surface-variant flex items-center justify-center"
+                >
+                  <span
+                    class="material-symbols-outlined text-6xl text-on-surface-variant group-hover:scale-110 group-hover:text-brand-orange transition-all duration-500"
+                    >settings</span
+                  >
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                  <h4 class="font-headline-md text-lg text-primary mb-2">
+                    Volante Integrado Hollowtech II
+                  </h4>
+                  <div
+                    class="text-xl font-display-lg text-brand-orange mb-6 font-bold mt-auto"
+                  >
+                    $85.000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="w-full md:w-1/3 flex-shrink-0 px-4">
+              <div
+                class="bg-surface-container-low border border-surface-container-high rounded-lg overflow-hidden group hover:border-brand-orange transition-all duration-500 flex flex-col h-full hover:shadow-[0_15px_40px_-10px_rgba(255,69,0,0.3)] hover:translate-y-[-4px]"
+              >
+                <div
+                  class="relative overflow-hidden aspect-video bg-surface-variant flex items-center justify-center"
+                >
+                  <span
+                    class="material-symbols-outlined text-6xl text-on-surface-variant group-hover:scale-110 group-hover:text-brand-orange transition-all duration-500"
+                    >donut_large</span
+                  >
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                  <h4 class="font-headline-md text-lg text-primary mb-2">
+                    Cassette SunRace 11-46t
+                  </h4>
+                  <div
+                    class="text-xl font-display-lg text-brand-orange mb-6 font-bold mt-auto"
+                  >
+                    $42.000
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="w-full md:w-1/3 flex-shrink-0 px-4">
+              <div
+                class="bg-surface-container-low border border-surface-container-high rounded-lg overflow-hidden group hover:border-brand-orange transition-all duration-500 flex flex-col h-full hover:shadow-[0_15px_40px_-10px_rgba(255,69,0,0.3)] hover:translate-y-[-4px]"
+              >
+                <div
+                  class="relative overflow-hidden aspect-video bg-surface-variant flex items-center justify-center"
+                >
+                  <span
+                    class="material-symbols-outlined text-6xl text-on-surface-variant group-hover:scale-110 group-hover:text-brand-orange transition-all duration-500"
+                    >link</span
+                  >
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                  <h4 class="font-headline-md text-lg text-primary mb-2">
+                    Cadena Shimano Deore 10v
+                  </h4>
+                  <div
+                    class="text-xl font-display-lg text-brand-orange mb-6 font-bold mt-auto"
+                  >
+                    $28.500
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="w-full md:w-1/3 flex-shrink-0 px-4">
+              <div
+                class="bg-surface-container-low border border-surface-container-high rounded-lg overflow-hidden group hover:border-brand-orange transition-all duration-500 flex flex-col h-full hover:shadow-[0_15px_40px_-10px_rgba(255,69,0,0.3)] hover:translate-y-[-4px]"
+              >
+                <div
+                  class="relative overflow-hidden aspect-video bg-surface-variant flex items-center justify-center"
+                >
+                  <span
+                    class="material-symbols-outlined text-6xl text-on-surface-variant group-hover:scale-110 group-hover:text-brand-orange transition-all duration-500"
+                    >radio_button_unchecked</span
+                  >
+                </div>
+                <div class="p-6 flex-1 flex flex-col">
+                  <h4 class="font-headline-md text-lg text-primary mb-2">
+                    Neumático Maxxis Ardent 29"
+                  </h4>
+                  <div
+                    class="text-xl font-display-lg text-brand-orange mb-6 font-bold mt-auto"
+                  >
+                    $45.990
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Controls -->
+          <button
+            class="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-black/50 backdrop-blur-sm border border-surface-variant rounded-full flex items-center justify-center text-white hover:bg-brand-orange hover:text-black transition-all duration-300 opacity-0 group-hover/carousel:opacity-100 focus:opacity-100"
+            id="repuestos-prev"
+          >
+            <span class="material-symbols-outlined">chevron_left</span>
+          </button>
+          <button
+            class="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-black/50 backdrop-blur-sm border border-surface-variant rounded-full flex items-center justify-center text-white hover:bg-brand-orange hover:text-black transition-all duration-300 opacity-0 group-hover/carousel:opacity-100 focus:opacity-100"
+            id="repuestos-next"
+          >
+            <span class="material-symbols-outlined">chevron_right</span>
+          </button>
+          <!-- Pagination -->
+          <div class="flex justify-center gap-2 mt-8" id="repuestos-dots"></div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="py-24 bg-background reveal" id="about">
+      <div
+        class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+          <div>
+            <h2
+              class="font-headline-lg text-headline-lg text-primary uppercase mb-4 tracking-tight"
+            >
+              Sobre Nosotros
+            </h2>
+            <div class="w-24 h-1 bg-brand-orange mb-8"></div>
+            <h3 class="font-headline-md text-2xl text-white mb-6">
+              Tradición y Pasión por las Cicletas
+            </h3>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
+              Taller Tonino es un taller familiar con años de experiencia en el
+              corazón de Quintero. Nos dedicamos a la restauración y
+              mantenimiento de bicicletas con el mismo cuidado que le daríamos a
+              las nuestras. Nuestra misión es fomentar el uso de la bicicleta
+              entregando un servicio técnico de excelencia.
+            </p>
+          </div>
+          <div
+            class="relative rounded-lg overflow-hidden aspect-video md:aspect-square"
+          >
+            <img
+              alt="Taller Tonino Workshop"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
+              src="https://lh3.googleusercontent.com/aida/AP1WRLujroz_SHh_QafH28BSWV4ip9PA5CngC957KMWY5vMcveOmD0JboqmWIqMzXqQ08WmKlR2oMjckEeM9w79KiTxQkmMbEcGy0Qeo9dZmADGoXlz7GGQ8XYelahQ_FY8KgAw5LY03dYJxNr9rsdiX7NO9Wpf5Ph6o1-NtpiqpxrLOuC028umriM7FisCVfXrErL_FNRqcNSTn6GgNPV0tDH7VHVJHYxWFK5v-hqS5PAtUszaXA9LYhOPtLfo"
+            />
+            <div
+              class="absolute inset-0 border border-surface-container-high rounded-lg pointer-events-none"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="bg-surface-container-lowest pt-0 pb-24 reveal" id="contact">
+      <div
+        class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"
+      >
+        <div class="mb-16">
+          <h2
+            class="font-headline-lg text-headline-lg text-primary uppercase mb-4 tracking-tight"
+          >
+            Contacto
+          </h2>
+          <div class="w-24 h-1 bg-brand-orange"></div>
+        </div>
+        <div class="max-w-3xl">
+          <h3 class="font-headline-md text-2xl text-white mb-6">
+            ¡Hablemos de tu bicicleta!
+          </h3>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mb-8">
+            Contáctanos directamente vía WhatsApp para consultas o agendar tu
+            mantención. Estamos listos para brindarte el mejor servicio técnico
+            en Quintero.
+          </p>
+          <a
+            class="btn-primary inline-flex items-center gap-4 bg-[#25D366] text-white px-8 py-4 rounded-DEFAULT font-bold uppercase tracking-wider shadow-lg"
+            href="https://wa.me/+56945643926"
+            target="_blank"
+          >
+            <svg
+              class="w-6 h-6 fill-current"
+              viewbox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              ></path>
+            </svg>
+            Contactar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-lowest border-t border-outline-variant w-full"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-stack-lg max-w-container-max mx-auto"
+      >
+        <div class="col-span-1 md:col-span-1 mb-8 md:mb-0">
+          <h2
+            class="font-display-lg text-headline-md text-primary dark:text-primary-fixed mb-4 uppercase tracking-tighter"
+          >
+            TALLER TONINO
+          </h2>
+          <p
+            class="font-body-md text-body-md text-on-surface-variant mb-6 text-sm"
+          >
+            High-Performance Bicycle Workshop
+          </p>
+          <p class="font-label-sm text-label-sm text-on-surface-variant">
+            © 2024 Taller Tonino. Quintero, Chile.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-label-caps text-label-caps text-primary mb-4">
+            Contacto
+          </h4>
+          <ul class="space-y-3">
+            <li
+              class="font-body-md text-body-md text-on-surface-variant flex items-start gap-2"
+            >
+              <span
+                class="material-symbols-outlined text-[18px] text-brand-orange"
+                >location_on</span
+              >
+              <span class="">Lazo #3050, Quintero</span>
+            </li>
+            <li
+              class="font-body-md text-body-md text-on-surface-variant flex items-center gap-2"
+            >
+              <span
+                class="material-symbols-outlined text-[18px] text-brand-orange"
+                >schedule</span
+              >
+              <span class="">Lunes-Viernes: 11:30 - 18:00</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-label-caps text-label-caps text-primary mb-4">
+            Enlaces Rápidos
+          </h4>
+          <ul class="space-y-3">
+            <li class="">
+              <a
+                class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="#repuestos"
+                >Catálogo de Repuestos</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors"
+                href="#services"
+                >Servicios Técnicos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-label-caps text-label-caps text-primary mb-4">
+            Social
+          </h4>
+          <div class="flex gap-4">
+            <a
+              class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center text-primary hover:bg-brand-orange hover:text-black transition-all duration-300"
+              href="#"
+            >
+              <span class="material-symbols-outlined">share</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Floating WhatsApp -->
+    <a
+      class="fixed bottom-6 left-6 z-40 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg hover:scale-110 hover:brightness-110 transition-all duration-300"
+      href="#"
+    >
+      <span class="material-symbols-outlined text-3xl">chat</span>
+    </a>
+    <!-- Back to Top -->
+    <button
+      class="fixed bottom-6 right-6 z-40 w-12 h-12 bg-surface-variant/80 backdrop-blur-md border border-outline-variant rounded flex items-center justify-center text-primary opacity-0 invisible transition-all duration-500 hover:bg-brand-orange hover:text-black hover:border-brand-orange"
+      id="backToTop"
+    >
+      <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+    <script src="js/Scripts.js"></script>
+  </body>
+</html>
