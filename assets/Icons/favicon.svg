@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="60" fill="#111"/>
+    <circle cx="64" cy="64" r="56" fill="none" stroke="#E53935" stroke-width="4"/>
+
+    <!-- Bicicleta -->
+    <circle cx="42" cy="78" r="16" fill="none" stroke="white" stroke-width="4"/>
+    <circle cx="86" cy="78" r="16" fill="none" stroke="white" stroke-width="4"/>
+
+    <path d="M42 78
+             L55 52
+             L72 78
+             L55 52
+             L73 52
+             L86 78
+             M55 52
+             L47 78"
+          fill="none"
+          stroke="white"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- TT -->
+    <text x="64" y="116"
+          text-anchor="middle"
+          font-size="24"
+          font-family="Arial"
+          font-weight="bold"
+          fill="#E53935">TT</text>
+</svg>
